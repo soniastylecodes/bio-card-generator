@@ -42,11 +42,12 @@ export default function App() {
   const isStandaloneSharedView = isViewingCard && !isAuthor;
 
   return (
-    <div className={`min-h-screen relative overflow-x-hidden ${isStandaloneSharedView ? 'bg-[#031c0e] flex items-center justify-center p-4' : 'bg-[#031c0e] text-white'}`}>
-      {/* Immersive Emerald Ambient Background */}
+    <div className={`min-h-screen relative overflow-x-hidden ${isStandaloneSharedView ? 'bg-slate-950 flex items-center justify-center p-4' : 'bg-slate-950 text-white'}`}>
+      {/* Animated Mesh Background for Frosted Glass Theme */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-emerald-500/15 blur-[120px] rounded-full"></div>
-        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-teal-600/10 blur-[120px] rounded-full"></div>
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-indigo-600/25 blur-[120px] rounded-full"></div>
+        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-purple-600/25 blur-[120px] rounded-full"></div>
+        <div className="absolute top-[20%] right-[10%] w-[30%] h-[30%] bg-blue-500/15 blur-[100px] rounded-full"></div>
       </div>
 
       {/* Immersive Visitor View (No headers/footers) */}
