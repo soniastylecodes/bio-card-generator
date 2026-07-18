@@ -1,0 +1,6 @@
+{
+  "name": "Bio Card Generator",
+  "description": "A clean, shareable digital business card generator that turns your professional info into a polished card in under a minute.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
